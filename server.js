@@ -13,7 +13,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 //route to the apiRoutes to get the friends array to show.
-require("./app/getRequest.js")(app);
+require("./getRequest.js")(app);
 
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);

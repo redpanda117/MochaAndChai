@@ -1,0 +1,20 @@
+{
+  "name": "testingcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redpanda117/testingCode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redpanda117/testingCode/issues"
+  },
+  "homepage": "https://github.com/redpanda117/testingCode#readme"
+}
