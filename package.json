@@ -1,20 +1,18 @@
 {
-  "name": "testingcode",
+  "name": "titleize",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "description": "* **Instructions**:",
+  "main": "index.js",
+   "directories": {
+    "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/redpanda117/testingCode.git"
+  "scripts": {
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/redpanda117/testingCode/issues"
-  },
-  "homepage": "https://github.com/redpanda117/testingCode#readme"
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
 }
