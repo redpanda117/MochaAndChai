@@ -19,5 +19,5 @@ function makeAlphabet(str) {
     } 
 }
 
-console.log(makeAlphabet("ab4fg12h%"));
+console.log(makeAlphabet("ab4gf12h%"));
 module.exports = makeAlphabet;
